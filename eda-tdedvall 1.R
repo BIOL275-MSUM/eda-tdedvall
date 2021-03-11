@@ -75,8 +75,9 @@ T2
 T3 <- filter(Solidago_altissima_full, country == "Canada")
 T3
 
+count(Solidago_altissima_full, country)
 
+count(T2)
 
-
-
+count(T3)
 
