@@ -1,0 +1,15 @@
+---
+title: "Lab 8"
+name: "Tyler Edvall"
+date: "03/11/21"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Abstract 
+
+Solidago altissima is a Northern American species of goldenrod plant. They are often found across large areas of the United States, northern parts of Mexico, and Canada. Solidago altissima is unique due to its tolerance of landscapes which have had human disturbance. This unique trait has allowed the plant to grow widespread in the North American/Canadian region. The question I will answer explores if there is a higher frequency of solidago altissima plants in areas of the United States compared to Canada. Data being used for this question comes from the “BIEN” database, which is the “Botanical Information and Ecology Network”. Within this database, there is an option to search for worldwide data observations on a specific plant species. I will use exploratory data analysis to answer my question. The two variables that will be compared in the dataset are the observations, and the country. I will separate the observations variable by “specimen” and the country variable by “United States” and “Canada”. The purpose of this research question would relate to ecological conservation and in what human disturbed areas solidago altissima growth frequency is higher. As well as, studying how plants can better adapt to the rapidly growing human disturbed areas. I predict that the frequency of solidago altissima will be higher in the region of Canada, due to less human disturbed areas. 
+
