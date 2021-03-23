@@ -22,4 +22,44 @@ Solidago altissima is a Northern American species of goldenrod plant. They are o
 
 
 
+##Data Acquisition
+
+*Solidago altissima data was collected from the Botanical Information and Ecology Network (BIEN). 
+*BIEN version used was 4.1.1, 2018-12-06. 
+*Packages used:
+
+```{r}
+
+citation()
+citation("BIEN")
+citation("dplyr")
+citation("ggplot2")
+
+
+```
+
+
+##Data Preparation
+
+*Graphed data was filtered from the library(BIEN) function.
+*library(ape) package was used for working with phylogenies in R.
+*library(maps) used for making quick maps of occurrences.
+*library(sp) the package was used for spatial data.
+*BIEN data was filtered by species, species occurrence, new world only, country, United States, Canada.
+*Solidago altissima frequency was counted in both United States and Canada. 
+
+
+
 #Results
+
+
+
+#Discussion
+
+
+
+#Literature Cited
+
+
+
+#References 
