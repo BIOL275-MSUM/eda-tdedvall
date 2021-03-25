@@ -81,3 +81,18 @@ count(T2)
 
 count(T3)
 
+#Citations
+
+BIEN_metadata_database_version()
+
+temp_dir <- file.path(tempdir(), "BIEN_temp") #Set a temporary working directory
+
+citation()
+citation("BIEN")
+citation("dplyr")
+citation("ggplot2")
+
+citation_info <- BIEN_metadata_citation(dataframe = Selaginella_selaginoides_occurrences,
+                                        bibtex_file = file.path(temp_dir,"Solidago_altissima.bib"),
+                                        acknowledgement_file = file.path(temp_dir,"Solidago_altissima.txt")
+

@@ -15,18 +15,17 @@ Solidago altissima is a Northern American species of goldenrod plant. They are o
 
 #Introduction
 
-Solidago altissima is a Northern American species of goldenrod plant. They are often found across large areas of the United States, northern parts of Mexico, and Canada. Their native habitat includes dry to moist roadsides, thickets, prairies & open woods, making Solidago altissima common in human populated areas. Solidago altissima is unique due to its tolerance of landscapes which have had human disturbance. Another unique trait is the plant's high plasticity to various soil types. Solidago altissima is able to grow in moist to dry soils, clay, clay loam, medium loam, sandy loam, Sandy, and caliche type soils. These unique traits have allowed the plant to grow widespread in the North American/Canadian region.
+Solidago altissima (also known as the tall goldenrod) is a Northern American species of goldenrod wildflower and a member of the Asteraceae, the Sunflower family. It has a central stem, or stem clusters, 2 to 6 feet tall supporting masses of small, dark yellow, plume-like flowers. They are often found across large areas of the United States, northern parts of Mexico, and Canada. Their native habitat includes dry to moist roadsides, thickets, prairies & open woods, making Solidago altissima common in human populated areas. Solidago altissima is unique due to its tolerance of landscapes which have had human disturbance. Another unique trait is the plant's high plasticity to various soil types. Solidago altissima is able to grow in moist to dry soils, clay, clay loam, medium loam, sandy loam, Sandy, and caliche type soils. These unique traits have allowed the plant to grow widespread in the North American/Canadian region.
 
 
 #Methods
 
 
-
 ##Data Acquisition
 
-*Solidago altissima data was collected from the Botanical Information and Ecology Network (BIEN). 
-*BIEN version used was 4.1.1, 2018-12-06. 
-*Packages used:
+I obtained Solidago altissima data from the Botanical Information and Ecology Network (Brian Maitner 2020). The data obtained consisted of the species occurrence of Solidago altissima from the (BIEN) package (Brian Maitner 2020). The species occurrence data was used to create a map of species range, and for further data analysis. 
+
+-Packages used:
 
 ```{r}
 
@@ -41,12 +40,15 @@ citation("ggplot2")
 
 ##Data Preparation
 
-*Graphed data was filtered from the library(BIEN) function.
-*library(ape) package was used for working with phylogenies in R.
-*library(maps) used for making quick maps of occurrences.
-*library(sp) the package was used for spatial data.
-*BIEN data was filtered by species, species occurrence, new world only, country, United States, Canada.
-*Solidago altissima frequency was counted in both United States and Canada. 
+-I obtained the data based off of species occurrence from the library(BIEN) package (Brian Maitner 2020). 
+
+-I used the (ape) function from the BIEN package (Brian Maitner 2020) for working with the Solidago altissima phylogeny in R. 
+
+-I used (maps) and (sp) functions within the BIEN package (Brian Maitner 2020) for making quick maps of occurrences. The (map) function created the base map, (points) function plotted occurrences of Solidago altissima, (plot) function added a map of Solidago altissima's range. 
+
+-I used the (filter) function in base R (R Core Team 2020) to arrange the Solidago altissima data by species, species occurrence, new world only, country, United States, Canada.
+
+-I used the (count) function in base R (R Core Team 2020) to count the Solidago altissima frequency in both United States and Canada. 
 
 
 
@@ -63,3 +65,16 @@ citation("ggplot2")
 
 
 #References 
+
+R Core Team (2020). R: A language and environment for statistical computing. R Foundation for
+  Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+
+Brian Maitner (2020). BIEN: Tools for Accessing the Botanical Information and Ecology Network
+  Database. R package version 1.2.4. https://CRAN.R-project.org/package=BIEN
+
+Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2020). dplyr: A Grammar of Data
+  Manipulation. R package version 1.0.2. https://CRAN.R-project.org/package=dplyr
+  
+H. Wickham (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York.
+
+BIEN version used: 4.1.1. 2018-12-06
