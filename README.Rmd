@@ -77,4 +77,6 @@ Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2020). dplyr:
   
 H. Wickham (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York.
 
+R version used: 3.6.3
+
 BIEN version used: 4.1.1. 2018-12-06

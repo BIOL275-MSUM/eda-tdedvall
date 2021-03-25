@@ -188,4 +188,6 @@ dplyr: A Grammar of Data Manipulation. R package version 1.0.2.
 H. Wickham (2016). ggplot2: Elegant Graphics for Data Analysis.
 Springer-Verlag New York.
 
+R version used: 3.6.3
+
 BIEN version used: 4.1.1. 2018-12-06
