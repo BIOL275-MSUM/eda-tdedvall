@@ -92,7 +92,6 @@ citation("BIEN")
 citation("dplyr")
 citation("ggplot2")
 
-citation_info <- BIEN_metadata_citation(dataframe = Selaginella_selaginoides_occurrences,
-                                        bibtex_file = file.path(temp_dir,"Solidago_altissima.bib"),
-                                        acknowledgement_file = file.path(temp_dir,"Solidago_altissima.txt")
+citation_info <- BIEN_metadata_citation
 
+getRversion()

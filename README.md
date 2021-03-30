@@ -1,8 +1,8 @@
-Frequency of solidago altissima in North American and Canadian regions.
+Frequency of Solidago altissima in North American and Canadian regions.
 ================
 03/11/21
 
-\#Abstract
+# Abstract
 
 Solidago altissima is a Northern American species of goldenrod plant.
 They are often found across large areas of the United States, northern
@@ -25,26 +25,30 @@ as, studying how plants can better adapt to the rapidly growing human
 disturbed areas. I predict that the frequency of solidago altissima will
 be higher in the region of Canada, due to less human disturbed areas.
 
-\#Introduction
+# Introduction
 
 Solidago altissima (also known as the tall goldenrod) is a Northern
 American species of goldenrod wildflower and a member of the Asteraceae,
 the Sunflower family. It has a central stem, or stem clusters, 2 to 6
 feet tall supporting masses of small, dark yellow, plume-like flowers.
 They are often found across large areas of the United States, northern
-parts of Mexico, and Canada. Their native habitat includes dry to moist
-roadsides, thickets, prairies & open woods, making Solidago altissima
-common in human populated areas. Solidago altissima is unique due to its
-tolerance of landscapes which have had human disturbance. Another unique
-trait is the plant’s high plasticity to various soil types. Solidago
-altissima is able to grow in moist to dry soils, clay, clay loam, medium
-loam, sandy loam, Sandy, and caliche type soils. These unique traits
-have allowed the plant to grow widespread in the North American/Canadian
-region.
+parts of Mexico, and Canada. On rare occasions, Solidago altissima has
+been recorded in areas such as Japan, Africa, and southern parts of
+Asia. Their native habitat includes dry to moist roadsides, thickets,
+prairies & open woods, making Solidago altissima common in human
+populated areas. Solidago altissima is unique due to its tolerance of
+landscapes which have had human disturbance. The plant is able to
+tolerate uneven terrain, and has modest growing demands, which is the
+reason for their high tolerance of human disturbed landscapes. Another
+unique trait is the plant’s high plasticity to various soil types.
+Solidago altissima is able to grow in moist to dry soils, clay, clay
+loam, medium loam, sandy loam, Sandy, and caliche type soils. These
+unique traits have allowed the plant to most frequently grow widespread
+in the North American/Canadian region.
 
-\#Methods
+# Methods
 
-\#\#Data Acquisition
+## Data Acquisition
 
 I obtained Solidago altissima data from the Botanical Information and
 Ecology Network (Brian Maitner 2020). The data obtained consisted of the
@@ -52,100 +56,7 @@ species occurrence of Solidago altissima from the (BIEN) package (Brian
 Maitner 2020). The species occurrence data was used to create a map of
 species range, and for further data analysis.
 
-\-Packages used:
-
-``` r
-citation()
-```
-
-    ## 
-    ## To cite R in publications use:
-    ## 
-    ##   R Core Team (2020). R: A language and environment for statistical
-    ##   computing. R Foundation for Statistical Computing, Vienna, Austria.
-    ##   URL https://www.R-project.org/.
-    ## 
-    ## A BibTeX entry for LaTeX users is
-    ## 
-    ##   @Manual{,
-    ##     title = {R: A Language and Environment for Statistical Computing},
-    ##     author = {{R Core Team}},
-    ##     organization = {R Foundation for Statistical Computing},
-    ##     address = {Vienna, Austria},
-    ##     year = {2020},
-    ##     url = {https://www.R-project.org/},
-    ##   }
-    ## 
-    ## We have invested a lot of time and effort in creating R, please cite it
-    ## when using it for data analysis. See also 'citation("pkgname")' for
-    ## citing R packages.
-
-``` r
-citation("BIEN")
-```
-
-    ## 
-    ## To cite package 'BIEN' in publications use:
-    ## 
-    ##   Brian Maitner (2020). BIEN: Tools for Accessing the Botanical
-    ##   Information and Ecology Network Database. R package version 1.2.4.
-    ##   https://CRAN.R-project.org/package=BIEN
-    ## 
-    ## A BibTeX entry for LaTeX users is
-    ## 
-    ##   @Manual{,
-    ##     title = {BIEN: Tools for Accessing the Botanical Information and Ecology
-    ## Network Database},
-    ##     author = {Brian Maitner},
-    ##     year = {2020},
-    ##     note = {R package version 1.2.4},
-    ##     url = {https://CRAN.R-project.org/package=BIEN},
-    ##   }
-
-``` r
-citation("dplyr")
-```
-
-    ## 
-    ## To cite package 'dplyr' in publications use:
-    ## 
-    ##   Hadley Wickham, Romain François, Lionel Henry and Kirill Müller
-    ##   (2020). dplyr: A Grammar of Data Manipulation. R package version
-    ##   1.0.2. https://CRAN.R-project.org/package=dplyr
-    ## 
-    ## A BibTeX entry for LaTeX users is
-    ## 
-    ##   @Manual{,
-    ##     title = {dplyr: A Grammar of Data Manipulation},
-    ##     author = {Hadley Wickham and Romain François and Lionel {
-    ##              Henry} and Kirill Müller},
-    ##     year = {2020},
-    ##     note = {R package version 1.0.2},
-    ##     url = {https://CRAN.R-project.org/package=dplyr},
-    ##   }
-
-``` r
-citation("ggplot2")
-```
-
-    ## 
-    ## To cite ggplot2 in publications, please use:
-    ## 
-    ##   H. Wickham. ggplot2: Elegant Graphics for Data Analysis.
-    ##   Springer-Verlag New York, 2016.
-    ## 
-    ## A BibTeX entry for LaTeX users is
-    ## 
-    ##   @Book{,
-    ##     author = {Hadley Wickham},
-    ##     title = {ggplot2: Elegant Graphics for Data Analysis},
-    ##     publisher = {Springer-Verlag New York},
-    ##     year = {2016},
-    ##     isbn = {978-3-319-24277-4},
-    ##     url = {https://ggplot2.tidyverse.org},
-    ##   }
-
-\#\#Data Preparation
+## Data Preparation
 
 \-I obtained the data based off of species occurrence from the
 library(BIEN) package (Brian Maitner 2020).
@@ -165,28 +76,28 @@ only, country, United States, Canada.
 \-I used the (count) function in base R (R Core Team 2020) to count the
 Solidago altissima frequency in both United States and Canada.
 
-\#Results
+# Results
 
-\#Discussion
+# Discussion
 
-\#Literature Cited
+# Literature Cited
 
-\#References
+# References
+
+Maitner B (2020). BIEN: Tools for Accessing the Botanical Information
+and Ecology Network Database. R package version 1.2.4.
+<https://CRAN.R-project.org/package=BIEN>
 
 R Core Team (2020). R: A language and environment for statistical
 computing. R Foundation for Statistical Computing, Vienna, Austria. URL
 <https://www.R-project.org/>.
 
-Brian Maitner (2020). BIEN: Tools for Accessing the Botanical
-Information and Ecology Network Database. R package version 1.2.4.
-<https://CRAN.R-project.org/package=BIEN>
-
-Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2020).
-dplyr: A Grammar of Data Manipulation. R package version 1.0.2.
-<https://CRAN.R-project.org/package=dplyr>
-
-H. Wickham (2016). ggplot2: Elegant Graphics for Data Analysis.
+Wickham H (2016). ggplot2: Elegant Graphics for Data Analysis.
 Springer-Verlag New York.
+
+Wickham H, François R, Henry L, and Müller K, (2020). dplyr: A Grammar
+of Data Manipulation. R package version 1.0.2.
+<https://CRAN.R-project.org/package=dplyr>
 
 R version used: 3.6.3
 
