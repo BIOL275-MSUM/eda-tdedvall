@@ -78,9 +78,11 @@ Solidago altissima frequency in both United States and Canada.
 
 # Results
 
-# Discussion
+![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->![](README_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
 
-# Literature Cited
+![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+# Discussion
 
 # References
 
