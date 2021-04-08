@@ -84,6 +84,23 @@ Solidago altissima frequency in both United States and Canada.
 
 # Discussion
 
+When examining the frequency of solidago altissima in regard to
+location, North America has the largest plant frequency, followed by
+Asia. While previously collected data on the reason for solidago
+alitissima’s high frequency in North America is low, there are a few
+possibilities to explain this occurrence. As previously stated, solidago
+altissima has a naturally high tolerance for growing in human disturbed
+areas. The United States 2020 population is just under nine times that
+of Canada’s 2020 population (Worldometers.info 2020). This large
+difference in populations could suggest a trend in Solidago altissima’s
+growth dispersion. If this species has undergone evolution to better
+adapt to modern human behavior, it would infer a relationship between
+country population size and frequency of solidago altissima. Conversely,
+solidago altissima may have originated and or evolved within the United
+States exclusively for a large duration of its development as a species.
+A union of these two concepts could result in the ecological dispersion
+of solidago altissima that we currently observe.
+
 # References
 
 Maitner B (2020). BIEN: Tools for Accessing the Botanical Information
@@ -100,6 +117,9 @@ Springer-Verlag New York.
 Wickham H, François R, Henry L, and Müller K, (2020). dplyr: A Grammar
 of Data Manipulation. R package version 1.0.2.
 <https://CRAN.R-project.org/package=dplyr>
+
+Worldometers.info (2021). Real Time World Statistics. Worldometer.
+<https://www.worldometers.info/>
 
 R version used: 3.6.3
 
