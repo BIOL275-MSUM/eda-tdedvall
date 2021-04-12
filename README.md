@@ -22,8 +22,13 @@ variable by “United States” and “Canada”. The purpose of this research
 question would relate to ecological conservation and in what human
 disturbed areas solidago altissima growth frequency is higher. As well
 as, studying how plants can better adapt to the rapidly growing human
-disturbed areas. I predict that the frequency of solidago altissima will
-be higher in the region of Canada, due to less human disturbed areas.
+disturbed areas. Although the species can tolerate the rough conditions
+created by humans, I would predict for solidago altissima to have a
+higher species frequency in less human disturbed area, such as Canada.
+Areas disturbed by humans can create harsh terrain for life to survive
+in. Certain negative characteristics present could prove to be nutrient
+taxing, along with other threats that could pose a greater risk to the
+fitness of solidago altissima.
 
 # Introduction
 
@@ -42,9 +47,10 @@ tolerate uneven terrain, and has modest growing demands, which is the
 reason for their high tolerance of human disturbed landscapes. Another
 unique trait is the plant’s high plasticity to various soil types.
 Solidago altissima is able to grow in moist to dry soils, clay, clay
-loam, medium loam, sandy loam, Sandy, and caliche type soils. These
+loam, medium loam, sandy loam, sandy, and caliche type soils. These
 unique traits have allowed the plant to most frequently grow widespread
-in the North American/Canadian region.
+in the North American/Canadian region. As well as, survive rough terrain
+caused by human disturbance.
 
 # Methods
 
@@ -76,16 +82,29 @@ only, country, United States, Canada.
 \-I used the (count) function in base R (R Core Team 2020) to count the
 Solidago altissima frequency in both United States and Canada.
 
+\-Within the (data.frame) of the solidago altissima data, I sorted by
+oldest instance of year. This allowed me to find the time-span of data
+collection on solidago altissima. The years 1836 to 2016.
+
 # Results
 
+Figure 1: Solidago altissima species frequency map across both the new
+world and old world. Blue spots indicate species instances.
+
+Figure 2: Solidago altissima species frequency map restricted to new
+world only. Green spots indicate species instances.
+
 ![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->![](README_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
+
+Figure 3: Bar graph of Solidago altissima species occurrence per
+country.
 
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 # Discussion
 
-When examining the frequency of solidago altissima in regard to
-location, North America has the largest plant frequency, followed by
+When examining the species frequency of solidago altissima in regard to
+location, North America has the largest species frequency, followed by
 Asia. While previously collected data on the reason for solidago
 alitissima’s high frequency in North America is low, there are a few
 possibilities to explain this occurrence. As previously stated, solidago
@@ -93,9 +112,11 @@ altissima has a naturally high tolerance for growing in human disturbed
 areas. The United States 2020 population is just under nine times that
 of Canada’s 2020 population (Worldometers.info 2020). This large
 difference in populations could suggest a trend in Solidago altissima’s
-growth dispersion. If this species has undergone evolution to better
-adapt to modern human behavior, it would infer a relationship between
-country population size and frequency of solidago altissima. Conversely,
+growth dispersion. If the overall species has undergone evolution to
+better adapt to modern human behavior, it would infer a relationship
+between country population size and species frequency of solidago
+altissima. An instance of a reduced country population could decrease
+the abundance of harsh terrain caused by human disturbances. Conversely,
 solidago altissima may have originated and or evolved within the United
 States exclusively for a large duration of its development as a species.
 A union of these two concepts could result in the ecological dispersion

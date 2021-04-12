@@ -97,8 +97,8 @@ ggplot(data = Solidago_altissima_full) +
   )
 
 
-
-
+Solidago_traits <- BIEN_trait_genus(genus = "Solidago")
+Solidago_traits
 
 #Citations
 
