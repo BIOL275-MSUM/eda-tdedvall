@@ -26,31 +26,31 @@ disturbed areas. Although the species can tolerate the rough conditions
 created by humans, I would predict for solidago altissima to have a
 higher species frequency in less human disturbed area, such as Canada.
 Areas disturbed by humans can create harsh terrain for life to survive
-in. Certain negative characteristics present could prove to be nutrient
-taxing, along with other threats that could pose a greater risk to the
-fitness of solidago altissima.
+in. Certain negative terrain characteristics present could prove to be
+nutrient taxing, along with other threats that could pose a greater risk
+to the fitness of solidago altissima.
 
 # Introduction
 
 Solidago altissima (also known as the tall goldenrod) is a Northern
-American species of goldenrod wildflower and a member of the Asteraceae,
-the Sunflower family. It has a central stem, or stem clusters, 2 to 6
-feet tall supporting masses of small, dark yellow, plume-like flowers.
-They are often found across large areas of the United States, northern
-parts of Mexico, and Canada. On rare occasions, Solidago altissima has
-been recorded in areas such as Japan, Africa, and southern parts of
-Asia. Their native habitat includes dry to moist roadsides, thickets,
-prairies & open woods, making Solidago altissima common in human
-populated areas. Solidago altissima is unique due to its tolerance of
-landscapes which have had human disturbance. The plant is able to
-tolerate uneven terrain, and has modest growing demands, which is the
-reason for their high tolerance of human disturbed landscapes. Another
-unique trait is the plant’s high plasticity to various soil types.
-Solidago altissima is able to grow in moist to dry soils, clay, clay
-loam, medium loam, sandy loam, sandy, and caliche type soils. These
-unique traits have allowed the plant to most frequently grow widespread
-in the North American/Canadian region. As well as, survive rough terrain
-caused by human disturbance.
+American species of goldenrod wildflower and a member of Asteraceae, the
+Sunflower family. It has a central stem, or stem clusters, 2 to 6 feet
+tall supporting masses of small, dark yellow, plume-like flowers. They
+are often found across large areas of the United States, northern parts
+of Mexico, and Canada. On rare occasions, Solidago altissima has been
+recorded in areas such as Japan, Africa, and southern parts of Asia.
+Their native habitat includes dry to moist roadsides, thickets, prairies
+& open woods, making Solidago altissima common in human populated areas.
+Solidago altissima is unique due to its tolerance of landscapes which
+have had human disturbance. The plant is able to tolerate uneven
+terrain, and has modest growing demands, which is the reason for their
+high tolerance of human disturbed landscapes. Another unique trait is
+the plant’s high plasticity to various soil types. Solidago altissima is
+able to grow in moist to dry soils, clay, clay loam, medium loam, sandy
+loam, sandy, and caliche type soils. These unique traits have allowed
+the plant to most frequently grow widespread in the North
+American/Canadian region. As well as, survive rough terrain caused by
+human disturbance.
 
 # Methods
 
@@ -77,7 +77,7 @@ altissima, (plot) function added a map of Solidago altissima’s range.
 
 \-I used the (filter) function in base R (R Core Team 2020) to arrange
 the Solidago altissima data by species, species occurrence, new world
-only, country, United States, Canada.
+only, country, United States, and Canada.
 
 \-I used the (count) function in base R (R Core Team 2020) to count the
 Solidago altissima frequency in both United States and Canada.
