@@ -1,16 +1,22 @@
-Frequency of Solidago altissima in North American and Canadian regions.
-================
-03/11/21
+
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+
+# Frequency of Solidago altissima in North American and Canadian regions
+
+Tyler Edvall
+
+Biosciences Department, Minnesota State University Moorhead, 1104 7th
+Avenue South, Moorhead, MN 56563 USA
 
 ## Abstract
 
-Solidago altissima is a Northern American species of goldenrod plant.
+*Solidago altissima* is a Northern American species of goldenrod plant.
 They are often found across large areas of the United States, northern
-parts of Mexico, and Canada. Solidago altissima is unique due to its
+parts of Mexico, and Canada. *Solidago altissima* is unique due to its
 tolerance of landscapes which have had human disturbance. This unique
 trait has allowed the plant to grow widespread in the North
 American/Canadian region. The question I will answer explores if there
-is a higher frequency of solidago altissima plants in areas of the
+is a higher frequency of *solidago altissima* plants in areas of the
 United States compared to Canada. Data being used for this question
 comes from the “BIEN” database, which is the “Botanical Information and
 Ecology Network”. Within this database, there is an option to search for
@@ -20,24 +26,24 @@ will be compared in the dataset are the observations, and the country. I
 will separate the observations variable by “specimen” and the country
 variable by “United States” and “Canada”. The purpose of this research
 question would relate to ecological conservation and in what human
-disturbed areas solidago altissima growth frequency is higher. As well
+disturbed areas sol*idago altissima* growth frequency is higher. As well
 as, studying how plants can better adapt to the rapidly growing human
 disturbed areas. Although the species can tolerate the rough conditions
-created by humans, I would predict for solidago altissima to have a
+created by humans, I would predict for *solidago altissima* to have a
 higher species frequency in less human disturbed area, such as Canada.
 Areas disturbed by humans can create harsh terrain for life to survive
 in. Certain negative terrain characteristics present could prove to be
 nutrient taxing, along with other threats that could pose a greater risk
-to the fitness of solidago altissima.
+to the fitness of *solidago altissima*.
 
 ## Introduction
 
-Solidago altissima (also known as the tall goldenrod) is a Northern
-American species of goldenrod wildflower and a member of Asteraceae, the
+*Solidago altissima* (also known as the tall goldenrod) is a Northern
+American species of goldenrod wildflower and a member of the Asteraceae
 Sunflower family. It has a central stem, or stem clusters, 2 to 6 feet
 tall supporting masses of small, dark yellow, plume-like flowers. They
 are often found across large areas of the United States, northern parts
-of Mexico, and Canada. On rare occasions, Solidago altissima has been
+of Mexico, and Canada. On rare occasions, *solidago altissima* has been
 recorded in areas such as Japan, Africa, and southern parts of Asia.
 Their native habitat includes dry to moist roadsides, thickets, prairies
 & open woods, making Solidago altissima common in human populated areas.
@@ -52,6 +58,8 @@ the plant to most frequently grow widespread in the North
 American/Canadian region. As well as, survive rough terrain caused by
 human disturbance.
 
+![test](images/solidago-altissima-tall-goldenrod_0901_150435.jpg)
+
 ## Methods
 
 # Data Acquisition
@@ -64,25 +72,25 @@ species range, and for further data analysis.
 
 # Data Preparation
 
-\-I obtained the data based off of species occurrence from the
+-I obtained the data based off of species occurrence from the
 library(BIEN) package (Brian Maitner 2020).
 
-\-I used the (ape) function from the BIEN package (Brian Maitner 2020)
+-I used the (ape) function from the BIEN package (Brian Maitner 2020)
 for working with the Solidago altissima phylogeny in R.
 
-\-I used (maps) and (sp) functions within the BIEN package (Brian
-Maitner 2020) for making quick maps of occurrences. The (map) function
-created the base map, (points) function plotted occurrences of Solidago
+-I used (maps) and (sp) functions within the BIEN package (Brian Maitner
+2020) for making quick maps of occurrences. The (map) function created
+the base map, (points) function plotted occurrences of Solidago
 altissima, (plot) function added a map of Solidago altissima’s range.
 
-\-I used the (filter) function in base R (R Core Team 2020) to arrange
+-I used the (filter) function in base R (R Core Team 2020) to arrange
 the Solidago altissima data by species, species occurrence, new world
 only, country, United States, and Canada.
 
-\-I used the (count) function in base R (R Core Team 2020) to count the
+-I used the (count) function in base R (R Core Team 2020) to count the
 Solidago altissima frequency in both United States and Canada.
 
-\-Within the (data.frame) of the solidago altissima data, I sorted by
+-Within the (data.frame) of the solidago altissima data, I sorted by
 oldest instance of year. This allowed me to find the time-span of data
 collection on solidago altissima. The years 1836 to 2016.
 
@@ -106,12 +114,12 @@ country.
 When examining the species frequency of solidago altissima in regard to
 location, North America has the largest species frequency, followed by
 Asia. While previously collected data on the reason for solidago
-alitissima’s high frequency in North America is low, there are a few
+altissima’s high frequency in North America is low, there are a few
 possibilities to explain this occurrence. As previously stated, solidago
 altissima has a naturally high tolerance for growing in human disturbed
 areas. The United States 2020 population is just under nine times that
 of Canada’s 2020 population (Worldometers.info 2020). This large
-difference in populations could suggest a trend in Solidago altissima’s
+difference in populations could suggest a trend in solidago altissima’s
 growth dispersion. If the overall species has undergone evolution to
 better adapt to modern human behavior, it would infer a relationship
 between country population size and species frequency of solidago
