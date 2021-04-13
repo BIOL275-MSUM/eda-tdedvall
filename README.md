@@ -2,7 +2,7 @@ Frequency of Solidago altissima in North American and Canadian regions.
 ================
 03/11/21
 
-# Abstract
+## Abstract
 
 Solidago altissima is a Northern American species of goldenrod plant.
 They are often found across large areas of the United States, northern
@@ -30,7 +30,7 @@ in. Certain negative terrain characteristics present could prove to be
 nutrient taxing, along with other threats that could pose a greater risk
 to the fitness of solidago altissima.
 
-# Introduction
+## Introduction
 
 Solidago altissima (also known as the tall goldenrod) is a Northern
 American species of goldenrod wildflower and a member of Asteraceae, the
@@ -52,9 +52,9 @@ the plant to most frequently grow widespread in the North
 American/Canadian region. As well as, survive rough terrain caused by
 human disturbance.
 
-# Methods
+## Methods
 
-## Data Acquisition
+# Data Acquisition
 
 I obtained Solidago altissima data from the Botanical Information and
 Ecology Network (Brian Maitner 2020). The data obtained consisted of the
@@ -62,7 +62,7 @@ species occurrence of Solidago altissima from the (BIEN) package (Brian
 Maitner 2020). The species occurrence data was used to create a map of
 species range, and for further data analysis.
 
-## Data Preparation
+# Data Preparation
 
 \-I obtained the data based off of species occurrence from the
 library(BIEN) package (Brian Maitner 2020).
@@ -86,7 +86,7 @@ Solidago altissima frequency in both United States and Canada.
 oldest instance of year. This allowed me to find the time-span of data
 collection on solidago altissima. The years 1836 to 2016.
 
-# Results
+## Results
 
 Figure 1: Solidago altissima species frequency map across both the new
 world and old world. Blue spots indicate species instances.
@@ -101,7 +101,7 @@ country.
 
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
-# Discussion
+## Discussion
 
 When examining the species frequency of solidago altissima in regard to
 location, North America has the largest species frequency, followed by
@@ -122,7 +122,7 @@ States exclusively for a large duration of its development as a species.
 A union of these two concepts could result in the ecological dispersion
 of solidago altissima that we currently observe.
 
-# References
+## References
 
 Maitner B (2020). BIEN: Tools for Accessing the Botanical Information
 and Ecology Network Database. R package version 1.2.4.
