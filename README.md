@@ -1,7 +1,7 @@
 
-<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right"/>
 
-# Frequency of Solidago altissima in North American and Canadian regions
+# Frequency of *Solidago altissima* in North American and Canadian regions
 
 Tyler Edvall
 
@@ -46,15 +46,15 @@ are often found across large areas of the United States, northern parts
 of Mexico, and Canada. On rare occasions, *solidago altissima* has been
 recorded in areas such as Japan, Africa, and southern parts of Asia.
 Their native habitat includes dry to moist roadsides, thickets, prairies
-& open woods, making Solidago altissima common in human populated areas.
-Solidago altissima is unique due to its tolerance of landscapes which
-have had human disturbance. The plant is able to tolerate uneven
+& open woods, making *solidago altissima* common in human populated
+areas. *Solidago altissima* is unique due to its tolerance of landscapes
+which have had human disturbance. The plant is able to tolerate uneven
 terrain, and has modest growing demands, which is the reason for their
 high tolerance of human disturbed landscapes. Another unique trait is
-the plant’s high plasticity to various soil types. Solidago altissima is
-able to grow in moist to dry soils, clay, clay loam, medium loam, sandy
-loam, sandy, and caliche type soils. These unique traits have allowed
-the plant to most frequently grow widespread in the North
+the plant’s high plasticity to various soil types. *Solidago altissima*
+is able to grow in moist to dry soils, clay, clay loam, medium loam,
+sandy loam, sandy, and caliche type soils. These unique traits have
+allowed the species to most frequently grow widespread in the North
 American/Canadian region. As well as, survive rough terrain caused by
 human disturbance.
 
@@ -64,11 +64,11 @@ human disturbance.
 
 # Data Acquisition
 
-I obtained Solidago altissima data from the Botanical Information and
+I obtained *solidago altissima* data from the Botanical Information and
 Ecology Network (Brian Maitner 2020). The data obtained consisted of the
-species occurrence of Solidago altissima from the (BIEN) package (Brian
-Maitner 2020). The species occurrence data was used to create a map of
-species range, and for further data analysis.
+species occurrence of *solidago altissima* from the (BIEN) package
+(Brian Maitner 2020). The species occurrence data was used to create a
+map of species range, and for further data analysis.
 
 # Data Preparation
 
@@ -76,59 +76,62 @@ species range, and for further data analysis.
 library(BIEN) package (Brian Maitner 2020).
 
 -I used the (ape) function from the BIEN package (Brian Maitner 2020)
-for working with the Solidago altissima phylogeny in R.
+for working with the *solidago altissima* phylogeny in R.
 
 -I used (maps) and (sp) functions within the BIEN package (Brian Maitner
 2020) for making quick maps of occurrences. The (map) function created
-the base map, (points) function plotted occurrences of Solidago
-altissima, (plot) function added a map of Solidago altissima’s range.
+the base map, (points) function plotted occurrences of *solidago
+altissima*, (plot) function added a map of *solidago altissima’s* range.
 
 -I used the (filter) function in base R (R Core Team 2020) to arrange
-the Solidago altissima data by species, species occurrence, new world
+the *solidago altissima* data by species, species occurrence, new world
 only, country, United States, and Canada.
 
 -I used the (count) function in base R (R Core Team 2020) to count the
-Solidago altissima frequency in both United States and Canada.
+*solidago altissima* frequency in both United States and Canada.
 
--Within the (data.frame) of the solidago altissima data, I sorted by
+-Within the (data.frame) of the *solidago altissima* data, I sorted by
 oldest instance of year. This allowed me to find the time-span of data
-collection on solidago altissima. The years 1836 to 2016.
+collection on *solidago altissima*. The years 1836 to 2016.
 
 ## Results
 
-Figure 1: Solidago altissima species frequency map across both the new
+Figure 1: *Solidago altissima* species frequency map across both the new
 world and old world. Blue spots indicate species instances.
 
-Figure 2: Solidago altissima species frequency map restricted to new
+![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+Figure 2: *Solidago altissima* species frequency map restricted to new
 world only. Green spots indicate species instances.
 
-![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->![](README_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
-Figure 3: Bar graph of Solidago altissima species occurrence per
+Figure 3: Bar graph of *solidago altissima* species occurrence per
 country.
 
-![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ## Discussion
 
-When examining the species frequency of solidago altissima in regard to
-location, North America has the largest species frequency, followed by
-Asia. While previously collected data on the reason for solidago
-altissima’s high frequency in North America is low, there are a few
-possibilities to explain this occurrence. As previously stated, solidago
-altissima has a naturally high tolerance for growing in human disturbed
-areas. The United States 2020 population is just under nine times that
-of Canada’s 2020 population (Worldometers.info 2020). This large
-difference in populations could suggest a trend in solidago altissima’s
-growth dispersion. If the overall species has undergone evolution to
-better adapt to modern human behavior, it would infer a relationship
-between country population size and species frequency of solidago
-altissima. An instance of a reduced country population could decrease
-the abundance of harsh terrain caused by human disturbances. Conversely,
-solidago altissima may have originated and or evolved within the United
-States exclusively for a large duration of its development as a species.
-A union of these two concepts could result in the ecological dispersion
-of solidago altissima that we currently observe.
+When examining the species frequency of *solidago altissima* in regard
+to location, North America has the largest species frequency, followed
+by Asia. While previously collected data on the reason for *solidago
+altissima’s* high frequency in North America is low, there are a few
+possibilities to explain this occurrence. As previously stated,
+*solidago altissima* has a naturally high tolerance for growing in human
+disturbed areas. The United States 2020 population is just under nine
+times that of Canada’s 2020 population (Worldometers.info 2020). This
+large difference in populations could suggest a trend in *solidago
+altissima’s* growth dispersion. If the overall species has undergone
+evolution to better adapt to modern human behavior, it would infer a
+relationship between country population size and species frequency of
+*solidago altissima*. An instance of a reduced country population could
+decrease the abundance of harsh terrain caused by human disturbances.
+Conversely, *solidago altissima* may have originated and or evolved
+within the United States exclusively for a large duration of its
+development as a species. A union of these two concepts could result in
+the ecological dispersion of *solidago altissima* that we currently
+observe.
 
 ## References
 
