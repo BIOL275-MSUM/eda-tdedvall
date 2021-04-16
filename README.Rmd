@@ -60,6 +60,8 @@ I obtained *solidago altissima* data from the Botanical Information and Ecology 
 
 ## Results
 
+The general trend seen in the data displays the highest species frequency being in the United States. Followed closely by Japan, then Canada. 
+
 Figure 1: *Solidago altissima* species frequency map across both the new world and old world. Blue spots indicate species instances.
 
 ```{r}
@@ -130,7 +132,7 @@ ggplot(data = Solidago_altissima_full) +
 
 ## Discussion
 
-When examining the species frequency of *solidago altissima* in regard to location, North America has the largest species frequency, followed by Asia. While previously collected data on the reason for *solidago altissima's* high frequency in North America is low, there are a few possibilities to explain this occurrence. As previously stated, *solidago altissima* has a naturally high tolerance for growing in human disturbed areas. The United States 2020 population is just under nine times that of Canada's 2020 population (Worldometers.info 2020). This large difference in populations could suggest a trend in *solidago altissima's* growth dispersion. If the overall species has undergone evolution to better adapt to modern human behavior, it would infer a relationship between country population size and species frequency of *solidago altissima*. An instance of a reduced country population could decrease the abundance of harsh terrain caused by human disturbances. Conversely, *solidago altissima* may have originated and or evolved within the United States exclusively for a large duration of its development as a species. A union of these two concepts could result in the ecological dispersion of *solidago altissima* that we currently observe.
+When examining the species frequency of *solidago altissima* in regard to location, North America (specifically the United States and Canada) has the largest species frequency, followed by Asia (the highest being in Japan). While previously collected data on the reason for *solidago altissima's* high frequency in North America is low, there are a few possibilities to explain this occurrence. As previously stated, *solidago altissima* has a naturally high tolerance for growing in human disturbed areas. The United States 2020 population is just under nine times that of Canada's 2020 population (Worldometers.info 2020). This large difference in populations could suggest a trend in *solidago altissima's* growth dispersion. If the overall species has undergone evolution to better adapt to modern human behavior, it would infer a relationship between country population size and species frequency of *solidago altissima*. An instance of a reduced country population could decrease the abundance of harsh terrain caused by human disturbances. Conversely, *solidago altissima* may have originated and or evolved within the United States exclusively for a large duration of its development as a species. A union of these two concepts could result in the ecological dispersion of *solidago altissima* that we currently observe.
 
 ## References
 
