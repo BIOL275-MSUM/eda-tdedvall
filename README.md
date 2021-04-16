@@ -111,11 +111,16 @@ country.
 
 ![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
+The general trend seen in the data displays the highest species
+frequency being in the United States. Followed closely by Japan, then
+Canada.
+
 ## Discussion
 
 When examining the species frequency of *solidago altissima* in regard
-to location, North America has the largest species frequency, followed
-by Asia. While previously collected data on the reason for *solidago
+to location, North America (specifically the United States and Canada)
+has the largest species frequency, followed by Asia (the highest being
+in Japan). While previously collected data on the reason for *solidago
 altissima’s* high frequency in North America is low, there are a few
 possibilities to explain this occurrence. As previously stated,
 *solidago altissima* has a naturally high tolerance for growing in human

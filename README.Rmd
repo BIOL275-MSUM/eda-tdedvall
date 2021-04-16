@@ -60,8 +60,6 @@ I obtained *solidago altissima* data from the Botanical Information and Ecology 
 
 ## Results
 
-The general trend seen in the data displays the highest species frequency being in the United States. Followed closely by Japan, then Canada. 
-
 Figure 1: *Solidago altissima* species frequency map across both the new world and old world. Blue spots indicate species instances.
 
 ```{r}
@@ -129,6 +127,9 @@ ggplot(data = Solidago_altissima_full) +
   )
 
 ```
+
+
+The general trend seen in the data displays the highest species frequency being in the United States. Followed closely by Japan, then Canada.
 
 ## Discussion
 
